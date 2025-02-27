@@ -2,6 +2,6 @@ function ModifyCube(cubeObj)
     -- 获取Unity的Vector3类型
     local Vector3 = CS.UnityEngine.Vector3
     -- 修改缩放
-    cubeObj.transform.localScale = Vector3(1.75, 1.35, 2)
+    cubeObj.transform.localScale = Vector3(1.7577, 1.3577, 2.77)
     print("Lua热更生效：Cube已缩小至50%")
 end
